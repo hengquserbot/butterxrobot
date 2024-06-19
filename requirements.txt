@@ -1,4 +1,3 @@
-git+https://github.com/naya1503/pyrogram
 TgCrypto
 kymang==2.0.2
 pytz
@@ -38,7 +37,6 @@ python-dotenv
 python-dotenv
 py-extract
 psutil
-git+https://github.com/Itz-fork/fake-useragent.git
 search_engine_parser
 future
 pytimeparse

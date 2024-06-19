@@ -1,6 +1,8 @@
 #from kymang.kymang.database import db
 
 from ubot.config import MONGO_URL
+mongo_client = AsyncIOMotorClient(MONGO_URL)
+mongodb = mongo_client.pyro_ubot
 
 from ubot.core.database.expired import *
 from ubot.core.database.notes import *

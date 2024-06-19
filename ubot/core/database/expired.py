@@ -1,6 +1,8 @@
-from ubot.core.database import db
+#from ubot.core.database import db
+from ubot.core.database import mongo_client
 
-userEXP = db["KynanWibu"]["expired"]
+userEXP = mongo_client["ubot"]["users"]
+#userEXP = db["KynanWibu"]["expired"]
 
 
 async def get_expired_date(user_id):

@@ -1,4 +1,6 @@
-from kymang.kymang.database import db
+#from kymang.kymang.database import db
+
+from ubot.config import MONGO_URL
 
 from ubot.core.database.expired import *
 from ubot.core.database.notes import *

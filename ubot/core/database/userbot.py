@@ -1,6 +1,6 @@
 from ubot.core.database import db
 
-ubotdb = db["KynanWibu"]["ubot"]
+ubotdb = db["HengQu"]["ubot"]
 
 
 async def add_ubot(user_id, api_id, api_hash, session_string):
